@@ -11,6 +11,28 @@
     background-color: #3a546d;
 }
 
+/*----------------
+    BG-COLORS CARD
+-----------------*/
+.ms-bg-card-red{
+    background-color: #ba4b63;
+}
+.ms-bg-card-teal{
+    background-color: #1ea4b6;
+}
+.ms-bg-card-black{
+    background-color: #140f0f;
+}
+.ms-bg-card-lightblu{
+    background-color: #1c83c1;
+}
+.ms-bg-card-blu{
+    background-color: #0e38b5;
+}
+.ms-bg-card-lightbrown{
+    background-color: #ccb2a3;
+}
+
 /*------------
     PADDING
 -------------*/
