@@ -7,4 +7,30 @@
 .ms-bg-green{
     background-color: #1abc9c;
 }
+.ms-bg-lightblu{
+    background-color: #3a546d;
+}
+
+/*------------
+    PADDING
+-------------*/
+.ms-padding-x{
+    padding: 0 40px;
+}
+
+/*------------
+    FOOTER
+-------------*/
+.icon{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+}
+
+footer a{
+    color: #1abc9c;
+    text-decoration: none;
+}
+
 
