@@ -11,28 +11,6 @@
     background-color: #3a546d;
 }
 
-/*----------------
-    BG-COLORS CARD
------------------*/
-.ms-bg-card-red{
-    background-color: #ba4b63;
-}
-.ms-bg-card-teal{
-    background-color: #1ea4b6;
-}
-.ms-bg-card-black{
-    background-color: #140f0f;
-}
-.ms-bg-card-lightblu{
-    background-color: #1c83c1;
-}
-.ms-bg-card-blu{
-    background-color: #0e38b5;
-}
-.ms-bg-card-lightbrown{
-    background-color: #ccb2a3;
-}
-
 /*------------
     TIPOGRAFY
 -------------*/
@@ -61,10 +39,32 @@
     background-color: #ffffff; 
     border-radius: 20px;
 }
+/*----card----*/
+.effect-hover{
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.icon-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(26, 188, 156, 0.3);
+    opacity: 0;
+}
+.fa-plus{
+    font-size: 55px;
+}
+.effect-hover i{
+    display: none;
+}
+/*----/card----*/
 
-/*------------
+/*-------------
     FOOTER
--------------*/
+--------------*/
 .icon{
     border: 1px solid #fff;
     border-radius: 50px;
@@ -75,6 +75,20 @@
 footer a{
     color: #1abc9c;
     text-decoration: none;
+}
+
+/*------------
+    HOVER
+-------------*/
+.effect-hover:hover i{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon-hover:hover{
+    opacity: 1;
 }
 
 
