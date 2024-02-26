@@ -39,6 +39,14 @@
     background-color: #ffffff; 
     border-radius: 20px;
 }
+.star-bk::after,
+.star-bk::before{
+    content: '';
+    height: 3px;
+    width: 15%; 
+    background-color: #000; 
+    border-radius: 20px;
+}
 /*----card----*/
 .effect-hover{
     border-radius: 20px;
@@ -67,8 +75,9 @@
     border-bottom: 1px solid black;
     border-radius: 0;
 }
-
-
+#contact button{
+    border: none;
+}
 /*----/contact----*/
 
 /*-------------
