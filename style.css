@@ -48,6 +48,21 @@
 }
 
 /*------------
+    MAIN
+-------------*/
+#hero .ms-img-box{
+    max-height: 200px;
+}
+.star::after,
+.star::before{
+    content: '';
+    height: 3px;
+    width: 15%; 
+    background-color: #ffffff; 
+    border-radius: 20px;
+}
+
+/*------------
     FOOTER
 -------------*/
 .icon{
